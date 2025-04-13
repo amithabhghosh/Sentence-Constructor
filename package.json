@@ -4,8 +4,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "json-server db.json --host 0.0.0.0 --port $PORT",
-    "build": "echo 'No build needed'"
+    "start": "json-server db.json --host 0.0.0.0 --port $PORT"
+   
   },
   "dependencies": {
     "json-server": "0.17.4"
