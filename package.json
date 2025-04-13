@@ -2,10 +2,11 @@
   "name": "sentence-submission",
   "version": "1.0.0",
   "main": "index.js",
- "scripts": {
+"scripts": {
   "postinstall": "chmod +x ./node_modules/.bin/json-server",
-  "start": "json-server --watch db.json --port 3001"
+  "start": "json-server db.json --port 3001 --no-static"
 }
+
 ,
   "repository": {
     "type": "git",
