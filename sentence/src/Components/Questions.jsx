@@ -10,7 +10,7 @@ export const Questions = () => {
   
     
     useEffect(() => {
-      axios.get('http://localhost:3001/questions')
+      axios.get('https://sentence-constructor-backend.onrender.com/questions')
         .then(res => setQuestions(res.data))
         .catch(err => alert(err));
     }, []);
