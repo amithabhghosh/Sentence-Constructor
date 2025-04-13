@@ -10,8 +10,8 @@ export const Questions = () => {
   
     
     useEffect(() => {
-      axios.get('http://localhost:3001/data')
-        .then(res => setQuestions(res.data.questions))
+      axios.get('http://localhost:3001/questions')
+        .then(res => setQuestions(res.data))
         .catch(err => alert(err));
     }, []);
   
